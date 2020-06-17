@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShopK300.Database", "ShopK3
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShopK300.Entities", "ShopK300.Entities\ShopK300.Entities.csproj", "{62B19DD6-9BF3-482D-AE82-17A81361CEE3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShopK300.Services", "ShopK300.Services\ShopK300.Services.csproj", "{2DE15DEE-97F9-444A-BCDC-F51A8AA84EBC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{62B19DD6-9BF3-482D-AE82-17A81361CEE3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{62B19DD6-9BF3-482D-AE82-17A81361CEE3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{62B19DD6-9BF3-482D-AE82-17A81361CEE3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2DE15DEE-97F9-444A-BCDC-F51A8AA84EBC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2DE15DEE-97F9-444A-BCDC-F51A8AA84EBC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2DE15DEE-97F9-444A-BCDC-F51A8AA84EBC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2DE15DEE-97F9-444A-BCDC-F51A8AA84EBC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

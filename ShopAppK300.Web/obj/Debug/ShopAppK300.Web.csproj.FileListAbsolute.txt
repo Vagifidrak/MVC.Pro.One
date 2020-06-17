@@ -106,3 +106,12 @@ C:\Users\МММ\source\repos\ShopsK300\ShopAppK300.Web\obj\Debug\ShopAppK300.Web
 C:\Users\МММ\source\repos\ShopsK300\ShopAppK300.Web\obj\Debug\ShopAppK300.Web.csproj.CopyComplete
 C:\Users\МММ\source\repos\ShopsK300\ShopAppK300.Web\obj\Debug\ShopAppK300.Web.dll
 C:\Users\МММ\source\repos\ShopsK300\ShopAppK300.Web\obj\Debug\ShopAppK300.Web.pdb
+C:\Users\МММ\source\repos\ShopsK300\ShopAppK300.Web\bin\ShopK300.Services.dll
+C:\Users\МММ\source\repos\ShopsK300\ShopAppK300.Web\bin\ShopK300.Database.dll
+C:\Users\МММ\source\repos\ShopsK300\ShopAppK300.Web\bin\ShopK300.Entities.dll
+C:\Users\МММ\source\repos\ShopsK300\ShopAppK300.Web\bin\ShopK300.Services.pdb
+C:\Users\МММ\source\repos\ShopsK300\ShopAppK300.Web\bin\ShopK300.Services.dll.config
+C:\Users\МММ\source\repos\ShopsK300\ShopAppK300.Web\bin\ShopK300.Database.pdb
+C:\Users\МММ\source\repos\ShopsK300\ShopAppK300.Web\bin\ShopK300.Database.dll.config
+C:\Users\МММ\source\repos\ShopsK300\ShopAppK300.Web\bin\ShopK300.Entities.pdb
+C:\Users\МММ\source\repos\ShopsK300\ShopAppK300.Web\bin\ShopK300.Entities.dll.config

@@ -8,12 +8,13 @@ using System.Threading.Tasks;
 
 namespace ShopK300.Entities
 {
-    class ShopDbContext:DbContext
+   public class ShopDbContext:DbContext,IDisposable
     {
-        public ShopDbContext() : base("ShopDbConnection") //Base Valideyn
+        public ShopDbContext() : base("ShopDbConnection") //Valideynin konstruktoruna göndərmək üçün
         {}
         public DbSet<Product> Products { get; set; }
         public DbSet<Category> Categories { get; set; }
         public DbSet<Picture> Pictures { get; set; }
+        public DbSet<ProductToPicture> ProductToPictures { get; set; }
     }
 }

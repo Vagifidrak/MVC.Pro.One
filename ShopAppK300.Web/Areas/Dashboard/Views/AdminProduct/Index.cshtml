@@ -1,0 +1,39 @@
+﻿@model List<ShopK300.Database.Product>
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Areas/Dashboard/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+<h2>Index</h2>
+
+<a class="btn btn-success btn-lg"  href="@Url.Action("Create","AdminProduct")">New Product</a>
+    <table class="table table-bordered">
+        <thead>
+            <tr>
+                <th>#</th>
+                <th>Product Name</th>
+                <th>Price</th>
+                <th>Category</th>
+                <th>Picture</th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            @{ int a = 1;}
+            @foreach(var pro in Model)
+            {
+                <tr>
+                    <td>@a</td>
+                    <td>@pro.Name</td>
+                    <td>@pro.Price</td>
+                    <td>-</td>
+                    <td>
+                        <img src="#" alt="Alternate Text" />
+                    </td>
+                    <td><a class="btn btn-success" href="#">Edit</a>
+                        <a  class="btn btn-danger" href="#">Delete</a></td>
+                </tr>
+                a++;
+            }
+        </tbody>
+    </table>

@@ -168,6 +168,7 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\Startup.Auth.cs" />
     <Compile Include="Areas\Dashboard\Controllers\AdminHomeController.cs" />
+    <Compile Include="Areas\Dashboard\Controllers\AdminProductController.cs" />
     <Compile Include="Areas\Dashboard\DashboardAreaRegistration.cs" />
     <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
@@ -1262,6 +1263,8 @@
     <Content Include="Areas\Dashboard\PublicBack\vendors\summernote\dist\font\summernote291f.woff" />
     <Content Include="Areas\Dashboard\PublicBack\vendors\summernote\dist\font\summernoted41d.eot" />
     <Content Include="Areas\Dashboard\Views\AdminHome\Index.cshtml" />
+    <Content Include="Areas\Dashboard\Views\AdminProduct\Index.cshtml" />
+    <Content Include="Areas\Dashboard\Views\AdminProduct\Create.cshtml" />
     <None Include="Scripts\jquery-3.4.1.intellisense.js" />
     <Content Include="Scripts\jquery-3.4.1.js" />
     <Content Include="Scripts\jquery-3.4.1.min.js" />
@@ -1324,6 +1327,16 @@
     <None Include="packages.config" />
     <Content Include="Scripts\jquery-3.4.1.slim.min.map" />
     <Content Include="Scripts\jquery-3.4.1.min.map" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ShopK300.Database\ShopK300.Database.csproj">
+      <Project>{3BAC8B34-9DA3-4C00-A040-F1C0FFA262A2}</Project>
+      <Name>ShopK300.Database</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ShopK300.Services\ShopK300.Services.csproj">
+      <Project>{2DE15DEE-97F9-444A-BCDC-F51A8AA84EBC}</Project>
+      <Name>ShopK300.Services</Name>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
