@@ -28,7 +28,7 @@
                     <td>@pro.Price</td>
                     <td>-</td>
                     <td>
-                        <img src="#" alt="Alternate Text" />
+                        <img class="img-thumbnail" style="width:70%; height:200px;object-fit:cover; border-radius:0" src="@pro.ProductToPictures.FirstOrDefault(x=>x.PictureID==pro.Thumbnail).Picture.Url" alt="Alternate Text" />
                     </td>
                     <td><a class="btn btn-success" href="#">Edit</a>
                         <a  class="btn btn-danger" href="#">Delete</a></td>

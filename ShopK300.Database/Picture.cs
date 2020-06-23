@@ -8,6 +8,6 @@ namespace ShopK300.Database
 {
     public class Picture:BaseTable
     {
-        public int Url { get; set; }
+        public string Url { get; set; }
     }
 }

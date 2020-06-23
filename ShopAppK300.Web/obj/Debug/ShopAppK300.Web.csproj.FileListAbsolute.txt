@@ -59,7 +59,6 @@ C:\Users\МММ\source\repos\ShopsK300\ShopAppK300.Web\bin\Microsoft.AspNet.Iden
 C:\Users\МММ\source\repos\ShopsK300\ShopAppK300.Web\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
 C:\Users\МММ\source\repos\ShopsK300\ShopAppK300.Web\bin\Microsoft.Owin.dll
 C:\Users\МММ\source\repos\ShopsK300\ShopAppK300.Web\bin\Microsoft.Owin.Host.SystemWeb.dll
-C:\Users\МММ\source\repos\ShopsK300\ShopAppK300.Web\bin\Microsoft.Owin.Security.Cookies.dll
 C:\Users\МММ\source\repos\ShopsK300\ShopAppK300.Web\bin\Microsoft.Owin.Security.dll
 C:\Users\МММ\source\repos\ShopsK300\ShopAppK300.Web\bin\Microsoft.Owin.Security.Facebook.dll
 C:\Users\МММ\source\repos\ShopsK300\ShopAppK300.Web\bin\Microsoft.Owin.Security.Google.dll

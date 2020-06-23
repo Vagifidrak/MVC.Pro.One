@@ -13,7 +13,5 @@ C:\Users\МММ\source\repos\ShopsK300\ShopK300.Entities\obj\Debug\ShopK300.Enti
 C:\Users\МММ\source\repos\ShopsK300\ShopK300.Entities\obj\Debug\ShopK300.Entities.csproj.CopyComplete
 C:\Users\МММ\source\repos\ShopsK300\ShopK300.Entities\obj\Debug\ShopK300.Entities.dll
 C:\Users\МММ\source\repos\ShopsK300\ShopK300.Entities\obj\Debug\ShopK300.Entities.pdb
-C:\Users\МММ\source\repos\ShopsK300\ShopK300.Entities\obj\Debug\ShopK300.Entities.Migrations.DbInitial.resources
+C:\Users\МММ\source\repos\ShopsK300\ShopK300.Entities\obj\Debug\ShopK300.Entities.Migrations.İnitialTable.resources
 C:\Users\МММ\source\repos\ShopsK300\ShopK300.Entities\obj\Debug\ShopK300.Entities.csproj.GenerateResource.cache
-C:\Users\МММ\source\repos\ShopsK300\ShopK300.Entities\obj\Debug\ShopK300.Entities.Migrations.ProPicture.resources
-C:\Users\МММ\source\repos\ShopsK300\ShopK300.Entities\obj\Debug\ShopK300.Entities.Migrations.ProThumbnail.resources

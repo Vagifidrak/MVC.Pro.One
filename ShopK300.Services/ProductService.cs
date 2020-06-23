@@ -10,10 +10,10 @@ namespace ShopK300.Services
 {
    public class ProductService
     {
-        public List<Product> GetProducts() { //Burdaki ID saxta addi 
+        public List<Product> GetProducts() { 
             using (ShopDbContext db=new ShopDbContext())
             {
-                return db.Products.ToList();
+                return db.Products.Include("ProductToPictures.Picture").ToList();
             }
         }
 

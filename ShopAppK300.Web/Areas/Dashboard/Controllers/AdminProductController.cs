@@ -1,4 +1,5 @@
-﻿using ShopK300.Services;
+﻿using ShopK300.Database;
+using ShopK300.Services;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -10,6 +11,7 @@ namespace ShopAppK300.Web.Areas.Dashboard.Controllers
     public class AdminProductController : Controller
     {
         ProductService productService = new ProductService();
+        PictureService pictureService = new PictureService();
         // GET: Dashboard/AdminProduct
         public ActionResult Index()
         {
@@ -30,12 +32,31 @@ namespace ShopAppK300.Web.Areas.Dashboard.Controllers
 
         // POST: Dashboard/AdminProduct/Create
         [HttpPost]
-        public ActionResult Create(FormCollection collection)
+        public ActionResult Create(Product product)
         {
             try
             {
-                // TODO: Add insert logic here
-
+                List<int> selectedPic = new List<int>();
+                HttpFileCollectionBase photos = Request.Files;
+                for (int i = 0; i < photos.Count; i++)
+                {
+                    HttpPostedFileBase file = photos[i];
+                    string fname = Guid.NewGuid() + file.FileName;
+                    Picture newPicture = new Picture()
+                    {
+                        Url = "/Uploads/" + fname.ToString() //bazaya elave edir
+                    };
+                    pictureService.SavePicture(newPicture);
+                    selectedPic.Add(newPicture.ID);
+                    var path = Server.MapPath("~/Uploads/")+fname;  //papkaya elave etmek
+                    photos[i].SaveAs(path);
+                }
+                product.Thumbnail = selectedPic[0];  //ilk elave olan sekil ilk sekil o olacaq
+                productService.SaveProduct(product);
+                foreach (var selPic in selectedPic)   //id lere baxir selectedPicdeki listden
+                {
+                    pictureService.SaveProductPicture(selPic, product.ID);
+                }
                 return RedirectToAction("Index");
             }
             catch

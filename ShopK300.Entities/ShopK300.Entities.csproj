@@ -51,17 +51,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Migrations\202006121813296_DbInitial.cs" />
-    <Compile Include="Migrations\202006121813296_DbInitial.designer.cs">
-      <DependentUpon>202006121813296_DbInitial.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\202006121835297_ProPicture.cs" />
-    <Compile Include="Migrations\202006121835297_ProPicture.designer.cs">
-      <DependentUpon>202006121835297_ProPicture.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\202006121841331_ProThumbnail.cs" />
-    <Compile Include="Migrations\202006121841331_ProThumbnail.designer.cs">
-      <DependentUpon>202006121841331_ProThumbnail.cs</DependentUpon>
+    <Compile Include="Migrations\202006230815498_İnitialTable.cs" />
+    <Compile Include="Migrations\202006230815498_İnitialTable.designer.cs">
+      <DependentUpon>202006230815498_İnitialTable.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -78,14 +70,8 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Migrations\202006121813296_DbInitial.resx">
-      <DependentUpon>202006121813296_DbInitial.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202006121835297_ProPicture.resx">
-      <DependentUpon>202006121835297_ProPicture.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202006121841331_ProThumbnail.resx">
-      <DependentUpon>202006121841331_ProThumbnail.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\202006230815498_İnitialTable.resx">
+      <DependentUpon>202006230815498_İnitialTable.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
